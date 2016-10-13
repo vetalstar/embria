@@ -11,31 +11,31 @@
         <thead>
             <tr class="stats__head">
                 <th>Сотрудник</th>
-                <th>Вход в ленту</th>
-                <th>Вход в Team</th>
+                <th class="js-event">Вход в ленту</th>
+                <th class="js-event">Вход в Team</th>
                 <th>Итого</th>
             </tr>
         </thead>
-        <tbody class="stat__body">
+        <tbody class="stats__body">
             <tr>
-                <td>Иванов Иван</td>
+                <td class="js-user">Иванов Иван</td>
                 <td class="js-count">611</td>
                 <td class="js-count">22</td>
-                <td></td>
+                <td class="js-res-x"></td>
             </tr>
             <tr>
-                <td>Петрова Александра</td>
+                <td class="js-user">Петрова Александра</td>
                 <td class="js-count">121</td>
                 <td class="js-count">0</td>
-                <td></td>
+                <td class="js-res-x"></td>
             </tr>
         </tbody>
         <tfoot>
             <tr class="stats__foot">
                 <td>Итого:</td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="js-res-y"></td>
+                <td class="js-res-y"></td>
+                <td class="js-total"></td>
             </tr>
         </tfoot>
     </table>

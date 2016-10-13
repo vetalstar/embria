@@ -17,11 +17,11 @@
     color: #687680;
 }
 
-.stats__head th, .stats__head td, .stat__body td {
+.stats__head th, .stats__head td, .stats__body td {
     border-bottom: 1px solid #E5E5E5;
 }
 
-.stat__body {
+.stats__body {
     font-size: 13px;
     color: #979797;
     font-weight: 600;
