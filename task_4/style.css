@@ -1,0 +1,28 @@
+.stats {
+    width: 100%;
+    border: 1px solid #E5E5E5;
+    border-left: 0;
+    font-family: Arial;
+}
+
+.stats th, .stats td {
+    padding: 5px 4px;
+    border-left: 1px solid #E5E5E5;
+}
+
+.stats__head, .stats__foot {
+    background-color: #F2F2F2;
+    font-weight: 600;
+    font-size: 14px;
+    color: #687680;
+}
+
+.stats__head th, .stats__head td, .stat__body td {
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.stat__body {
+    font-size: 13px;
+    color: #979797;
+    font-weight: 600;
+}
